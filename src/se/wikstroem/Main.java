@@ -47,6 +47,7 @@ public class Main {
         } else if (förstaKortet.färg == Kort.SPADER) {
             färg = "♠";
         }
+        
 
         JOptionPane.showMessageDialog(null, "Första kortet i leken är " + färg + " " + förstaKortet.valör);
 
